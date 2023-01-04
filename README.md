@@ -1,4 +1,4 @@
-#Project UAS Semester 1
+# Project UAS Semester 1 #
 
 Nama : Muhammad Refa Saputra
 
@@ -6,7 +6,7 @@ NIM : 312210673
 
 Kelas: TI.22.B.2
 
-Link Youtube Tutorial Program
+# Link Youtube Tutorial Program #
 https://youtu.be/_ttvS5ad1r4
 
 Ketentuan Perogram

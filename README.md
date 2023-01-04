@@ -9,10 +9,10 @@ Kelas: TI.22.B.2
 ## Link Youtube Tutorial Program ##
 https://youtu.be/_ttvS5ad1r4
 
-# Ketentuan Perogram #
+## Ketentuan Perogram ##
 gambar 1
 
-# Penjeleasan Program #
+## Penjeleasan Program ##
 Untuk membuat Program tersebut pertama buat package yang berisi file seperti dalam ketentuan di atas.
 
 daftar_nilai.py

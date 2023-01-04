@@ -10,7 +10,8 @@ Kelas: TI.22.B.2
 https://youtu.be/_ttvS5ad1r4
 
 ## Ketentuan Perogram ##
-gambar 1
+
+![ss_ketentuan](https://user-images.githubusercontent.com/115479782/210584117-e96e4d8c-eaf9-4ca0-8b6b-ee2e720207dd.png)
 
 ## Penjeleasan Program ##
 Untuk membuat Program tersebut pertama buat package yang berisi file seperti dalam ketentuan di atas.

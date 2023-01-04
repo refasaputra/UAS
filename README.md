@@ -108,14 +108,23 @@ from model.daftar_nilai import cari_data
 
 
 while True:
+
     print('\n|================|')
+    
     print('|  Pilihan Menu  |')
+    
     print('|================|')
+    
     print('\n1. Tambah Data')
+   
     print('2. Hapus Data')
+    
     print('3. Ubah Data')
+    
     print('4. Cari Data')
+    
     print('5. Lihat Semua Data')
+    
     print('6. Keluar ')
 
     pilihan = input('\nMasukan Pilihan Menu = ')

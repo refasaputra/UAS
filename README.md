@@ -137,3 +137,7 @@ Berikut Code program main.py
         break
     else:
         print('Masukan Pilihan yang Benar!!')
+
+Sekian Dari Saya
+
+TERIMA KASIH :)

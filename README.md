@@ -6,19 +6,16 @@ NIM : 312210673
 
 Kelas: TI.22.B.2
 
-## Link Youtube Tutorial Program ##
-https://youtu.be/_ttvS5ad1r4
-
 ## Ketentuan Perogram ##
 
 ![ss_ketentuan](https://user-images.githubusercontent.com/115479782/210584117-e96e4d8c-eaf9-4ca0-8b6b-ee2e720207dd.png)
 
 ## Penjeleasan Program ##
-Untuk membuat Program tersebut pertama buat package yang berisi file seperti dalam ketentuan di atas.
+Untuk membuat Program yang akan saya kerjakan berikut langkah langkahny..
 
 daftar_nilai.py
 
-Pertama saya membuat file daftar_nilai.py yang terletak pada folder model dan berisi beberapa fungsi yaitu tambah_data, ubah_data, hapus_data, dan cari_data dan berisi database berupa dictionary
+saya membuat file daftar_nilai.py yang terletak pada folder model dan berisi beberapa fungsi yaitu tambah_data, ubah_data, hapus_data, dan cari_data dan berisi database berupa dictionary
 
 Berikut Code Program daftar_nilai.py
 
@@ -45,7 +42,7 @@ Berikut Code Program daftar_nilai.py
     cari(input("\nMasukan Nama Yang Ingin dicari = "))
 input_nilai.py
 
-Selanjutnya saya membuat fungsi untuk meminta user memsaukan data / input yang berada pada file input_nilai.py yang berada pada modul view dan input user di gabung dengan fungsi yang sudah saya buat sebelumnya pada daftar_nilai.py untuk memasukan inputan user ke database(dictionary)
+saya membuat fungsi untuk meminta user memsaukan data yang berada pada modul view dan input user di gabung dengan fungsi yang sudah saya buat sebelumnya pada daftar_nilai.py untuk memasukan inputan user ke database
 Berikut Code Perogram yang berada pada input_nilai.py
 
     from model.daftar_nilai import tambah_data, ubah_data, hapus_data
@@ -83,7 +80,7 @@ Berikut Code Perogram yang berada pada input_nilai.py
     tambah_data(nama, nim, tugas, uts, uas, akhir)
 view_nilai.py
 
-Selanjutnya saya membuat fungsi untuk menampilkan semua data yang ada dan fungsi untuk menampilkan hasil pencarian user dengan menggunakan modul tabulate data untuk mempercantik tabel dan memanggil database(dictionary) yang ada pada modul daftar_nilai.py
+saya membuat fungsi untuk menampilkan semua data yang ada dan fungsi untuk menampilkan hasil pencarian user dengan menggunakan modul tabulate data untuk mempercantik tabel dan memanggil database yang ada pada modul daftar_nilai.py
 Berikut code program view_nilai.py
 
     from model.daftar_nilai import database
@@ -105,7 +102,7 @@ Berikut code program view_nilai.py
           "Nama", "NIM", "Tugas", "UTS", "UAS", "AKHIR"], tablefmt="double_grid"))
 main.py
 
-Terakhir saya membuat file main.py yang berisi code program untuk menyatukan semua fungsi yang ada di beberapa modul yang telah saya buat sebelumnya dengan mengimport modul dan fungsi yang akan saya pakai ke dalam main.py dan saya membuat perulanagn menggunakan py while True:  untuk mebuat perulangan pada pilihan menu yang akan tampil sebagai pilihan user.
+saya membuat file main.py yang berisi code program untuk menyatukan semua fungsi yang ada di beberapa modul yang telah saya buat sebelumnya dengan mengimport modul dan fungsi yang akan saya pakai ke dalam main.py dan saya membuat perulangan menggunakan py while True:  untuk mebuat perulangan pada pilihan menu yang akan tampil sebagai pilihan user.
 Berikut Code program main.py
 
     from view.input_nilai import masukan_data, cari_hapus, cari_ubah
